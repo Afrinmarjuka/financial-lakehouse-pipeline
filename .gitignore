@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Data (Data Lakehouse directories)
+data/raw/*.json
+data/silver/*
+data/gold/*
+!data/raw/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
